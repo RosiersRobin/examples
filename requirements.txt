@@ -1,0 +1,5 @@
+pyserial>=3.4
+-e git+https://github.com/NMCT-S5-Robotics/pycreate2.git#egg=pycreate2
+-e git+https://github.com/NMCT-S5-Robotics/ampy.git#egg=adafruit-ampy
+gpiozero>=1.4.0
+paho-mqtt>=1.4.0
