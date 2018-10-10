@@ -12,6 +12,7 @@ from settings import Settings
 cr2 = Create2(Settings.ROOMBA_SERIAL)
 cr2.open()
 
+
 # Create server
 with SimpleXMLRPCServer(('', Settings.XMLRPC_PORT), allow_none=True) as server:
     server.register_introspection_functions()
